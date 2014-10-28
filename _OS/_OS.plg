@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: _OS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP42E8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/_OS.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\C++\_OS\Delter.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP42E8.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP42E9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/_OS.pdb" /debug /machine:I386 /out:"Debug/_OS.exe" /pdbtype:sept 
+".\Debug\_OS.obj"
+".\Debug\_OSDlg.obj"
+".\Debug\Creat.obj"
+".\Debug\Delter.obj"
+".\Debug\Display.obj"
+".\Debug\StdAfx.obj"
+".\Debug\_OS.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP42E9.tmp"
+<h3>Output Window</h3>
+Compiling...
+Delter.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+_OS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
